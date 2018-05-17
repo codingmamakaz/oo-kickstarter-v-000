@@ -1,3 +1,5 @@
+require 'pry'
+
 class Project
 
   attr_accessor :title, :backers, :backer
@@ -9,6 +11,6 @@ class Project
 
   def add_backer(backer)
     @backers << backer
-    
+
   end
 end
